@@ -13,14 +13,7 @@ const SectionPaper = styled(Paper)(({ theme }) => ({
   height: "100%",
 }));
 
-// Individual info card with no shadow, only border
-const CardBox = styled(Box)(({ theme }) => ({
-  backgroundColor: "#fff",
-  border: "1px solid #ccc",
-  borderRadius: theme.spacing(2),
-  padding: theme.spacing(2),
-  marginBottom: theme.spacing(2),
-}));
+
 
 // Sample attendance data
 const presentDates = [new Date(), addDays(new Date(), -1)];

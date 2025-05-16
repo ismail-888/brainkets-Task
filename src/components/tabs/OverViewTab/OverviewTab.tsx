@@ -54,7 +54,6 @@ const RecentActivityCard: React.FC<RecentActivityCardProps> = ({
 );
 
 const HolidayCard: React.FC<HolidayCardProps> = ({
-  icon,
   title,
   dateInfo,
   daysAway,
